@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .button {
+    @apply h-5 w-5 cursor-pointer hover:scale-125 transition transform duration-100 ease-out;
+  }
+}
+@layer components {
+  .rangeButton {
+    background-color: green;
+  }
+  /* .rangeButton::-webkit-slider-thumb {
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+    background-color: #116530;
+  } */
+}
